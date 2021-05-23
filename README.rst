@@ -9,7 +9,7 @@ Generate pydantic schema from gino models
 
 | **Install**: ``pip install ginodantic``
 
-**Github**: https://github.com/basalex/ginodantic
+**Github**: https://github.com/Basalex/ginodantic
 
 
 | Generating custom schemas

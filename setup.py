@@ -6,7 +6,7 @@ here = os.path.abspath(os.path.dirname(__file__))
 with open("README.rst", "r", encoding="utf-8") as f:
     long_description = f.read()
 
-VERSION = '0.1.0b0'
+VERSION = '0.1.0b1'
 DESCRIPTION = 'Ginodantic'
 LONG_DESCRIPTION = 'A package for generating pydantic schemas from gino models'
 
@@ -28,5 +28,6 @@ setup(
         "Operating System :: Unix",
         "Operating System :: MacOS :: MacOS X",
         "Operating System :: Microsoft :: Windows",
-    ]
+    ],
+    project_urls=["Source = https://github.com/Basalex/ginodantic"]
 )
