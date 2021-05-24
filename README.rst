@@ -48,5 +48,5 @@ Examples of usage:
     class UserSchema(BaseModel):
         id: Optional[int] = None
         username: Optional[str] = None
-        age__le: Optional[str] = None
-        age__ge: Optional[str] = None
+        age__le: Optional[int] = None
+        age__ge: Optional[int] = None
